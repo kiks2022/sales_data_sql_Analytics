@@ -9,6 +9,12 @@ SQL analytics project using Chinook and Kaggle Sales datasets — covers core qu
 | Chinook Database | [GitHub – lerocha/chinook-database](https://github.com/lerocha/chinook-database/blob/master/ChinookDatabase/DataSources/Chinook_PostgreSql.sql) | 3,503 tracks, 59 customers, 412 invoices |
 | Sample Sales Data | [Kaggle – Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data) | 2,823 orders across 7 product lines |
 ---
+## Database Schema
+
+The system is built on a relational model using the Chinook music dataset and a sales dataset.
+
+- invoice_line acts as the fact table for revenue calculations
+- track, album, and artist define the product hierarchy
 ![Alt text](chinook_EDA.png)
 
 ---
