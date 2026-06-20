@@ -15,6 +15,7 @@ The system is built on a relational model using the Chinook music dataset and a 
 
 - invoice_line acts as the fact table for revenue calculations
 - track, album, and artist define the product hierarchy
+
 ![Alt text](chinook_EDA.png)
 
 ---
