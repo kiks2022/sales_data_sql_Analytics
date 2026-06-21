@@ -1,4 +1,4 @@
-Here's the updated README with the "How to Run This Project" section added — replace your entire current README.md with this:
+
 
 ```markdown
 # Sales Data SQL Analytics Project
