@@ -30,6 +30,8 @@ This analysis shows revenue distribution across product lines in the sales datas
 
 ![Revenue by Product Line](revenue_by_product_line.png)
 
+---
+
 ### Key Insight:
 Classic Cars is the highest revenue-generating product line, significantly outperforming all other categories.
 
