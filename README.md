@@ -8,8 +8,8 @@ SQL analytics project using the Chinook relational database and a Kaggle sales d
 
 | Dataset | Source | Description |
 |---|---|---|
-| Chinook Database | GitHub – lerocha/chinook-database | Music store transactional database containing customers, invoices, tracks, and albums |
-| Sample Sales Data | Kaggle – Sample Sales Data | E-commerce sales dataset with 2,800+ orders across multiple product lines |
+| Chinook Database | GitHub – [lerocha/chinook-databas](url)e | Music store transactional database containing customers, invoices, tracks, and albums |
+| Sample Sales Data | [Kaggle – Sample Sales Data](url) | E-commerce sales dataset with 2,800+ orders across multiple product lines |
 
 ---
 
