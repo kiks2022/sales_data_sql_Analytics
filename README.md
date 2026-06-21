@@ -1,6 +1,3 @@
-
-
-```markdown
 # Sales Data SQL Analytics Project
 
 SQL analytics project using the Chinook relational database and a Kaggle sales dataset. The project demonstrates end-to-end SQL analytics skills including data modeling, joins, window functions, and performance evaluation using PostgreSQL (Supabase).
@@ -231,4 +228,3 @@ This project demonstrates the ability to:
 - Apply window functions for ranking and segmentation
 - Evaluate query performance and indexing behavior
 - Extract business insights from structured datasets
-```
