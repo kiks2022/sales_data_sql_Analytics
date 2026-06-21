@@ -22,6 +22,7 @@ The project uses a relational model built on the Chinook dataset and a separate 
 - The schema follows a star-like analytical structure optimized for SQL querying
 
 ![Chinook Star Schema](chinook_star_schema.png)
+*Entity Relationship Diagram — generated using dbdiagram.io*
 
 ---
 
