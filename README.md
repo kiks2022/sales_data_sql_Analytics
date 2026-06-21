@@ -17,8 +17,8 @@ SQL analytics project using the Chinook relational database and a Kaggle sales d
 
 The project uses a relational model built on the Chinook dataset and a separate sales dataset.
 
-- `invoice_line` serves as the primary fact table for transactional revenue
-- `track`, `album`, and `artist` define the product hierarchy
+- invoice_line serves as the FACT table in a star schema design
+- track, album, and artist serve as DIMENSION tables supporting product hierarchy analysis
 - The schema follows a star-like analytical structure optimized for SQL querying
 
 ![Chinook Star Schema](chinook_star_schema.png)
