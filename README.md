@@ -21,7 +21,7 @@ The project uses a relational model built on the Chinook dataset and a separate 
 - track, album, and artist serve as DIMENSION tables supporting product hierarchy analysis
 - The schema follows a star-like analytical structure optimized for SQL querying
 
-![Chinook Star Schema](chinook_star_schema.png)
+![Chinook Star Schema](visuals/chinook_star_schema.png)
 *Entity Relationship Diagram — generated using dbdiagram.io*
 
 ---
@@ -30,7 +30,7 @@ The project uses a relational model built on the Chinook dataset and a separate 
 
 This analysis shows revenue distribution across product lines in the sales dataset.
 
-![Revenue by Product Line](revenue_by_product_line.png)
+![Revenue by Product Line](visuals/revenue_by_product_line.png)
 
 ---
 
@@ -132,7 +132,7 @@ Follow these steps to set up the databases and run the queries yourself.
 ### Step 2 — Import the Chinook Database
 1. In your Supabase project, go to **SQL Editor** in the left sidebar
 2. Click **New Query**
-3. Open the file `datasets/Chinook_PostgreSql.sql` from this repository
+3. Open the file `sql/Chinook_PostgreSql.sql` from this repository
 4. Copy the entire contents and paste into the SQL Editor
 5. Click **Run** (this may take 30–60 seconds)
 6. Verify it worked by running:
@@ -182,7 +182,7 @@ CREATE TABLE sales_data (
 1. Go to **Table Editor** in the left sidebar
 2. Click on the `sales_data` table
 3. Click **Insert** → **Import data from CSV**
-4. Upload `datasets/sales_data_sample.csv`
+4. Upload `data/sales_data_sample.csv`
 5. Verify it worked by running:
 
 ```sql
@@ -193,10 +193,10 @@ SELECT COUNT(*) FROM sales_data;
 ---
 
 ### Step 4 — Run the Queries
-1. Open `Week3_SQL_Script.sql` from this repository
+1. Open `sql/sales_data_analytics_Script.sql` from this repository
 2. Copy and paste each section into the Supabase SQL Editor
 3. Run them one section at a time to follow the analysis
-4. Compare your results against the insights documented in `Week3_SQL_Insights.pdf`
+4. Compare your results against the insights documented in `reports/sales_data_analytics.pdf`
 
 ---
 
